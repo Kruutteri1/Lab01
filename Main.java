@@ -1,4 +1,3 @@
-package com.Zaiets;
 import java.util.Scanner;
 
 public class Main {
@@ -32,7 +31,6 @@ public class Main {
         }
     }
 
-
     private static void gipotenuza(Scanner sc) {
         System.out.print("Enter first num: ");
         double a = sc.nextInt();
@@ -44,7 +42,6 @@ public class Main {
         System.out.println("Number c = " + c);
 
     }
-
 
     private static void previousAndNextNumber(Scanner sc) {
         System.out.print("Enter number: ");
@@ -77,6 +74,3 @@ public class Main {
         System.out.println(k % n);
     }
 }
-
-
-
